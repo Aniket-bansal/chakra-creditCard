@@ -14,6 +14,13 @@ const Card = () => {
             <FormLabel>Expiry</FormLabel>
             <FormLabel>CVV</FormLabel>
         </HStack>
+        <HStack spacing="5">
+        <br/>
+
+            <FormLabel>John</FormLabel>
+            <FormLabel>05/12</FormLabel>
+            <FormLabel>3778</FormLabel>
+        </HStack>
     </div>
   )
 }
