@@ -2,7 +2,7 @@
   /* text-align: center; */
   display: flex;
   flex-direction: row;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   max-width:70% ;
   margin: auto;
   height: 400px;
@@ -10,11 +10,12 @@
   margin-top: 100px;
 }
 .App>.card{
-  border: 1px solid blue;
-  width: 50%;
+  /* border: 1px solid blue; */
+  width: 40%;
+  margin-top: 80px;
 }
 .App>.form{
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   width: 50%;
 }
 

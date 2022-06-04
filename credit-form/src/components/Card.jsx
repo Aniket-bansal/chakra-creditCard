@@ -1,9 +1,19 @@
+import { FormLabel, HStack } from '@chakra-ui/react'
 import React from 'react'
-
+import './card.css'
 const Card = () => {
   return (
-    <div>
-        <img src="https://www.visa.co.in/dam/VCOM/regional/ap/india/global-elements/images/in-visa-classic-card-498x280.png" />
+    <div className="card">
+        <h2 className="visa">VISA</h2>
+        <h2>4256 7890 5678 4532</h2>
+        <br/>
+        <HStack spacing="5">
+        <br/>
+
+            <FormLabel>CardHolder</FormLabel>
+            <FormLabel>Expiry</FormLabel>
+            <FormLabel>CVV</FormLabel>
+        </HStack>
     </div>
   )
 }
